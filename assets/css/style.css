@@ -8,6 +8,17 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Element selectors and class selectors moved and grouped together */
+/* Css selectors structured to follow semantic structure of HTML elements */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,15 +50,6 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -136,5 +138,3 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-/* .footer h2 font-size: 20px has been removed and the property and value has been moved to the .footer and 
-/* see of font-size can be moved to another element */
